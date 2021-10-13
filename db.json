@@ -1,0 +1,58 @@
+{
+	"article": [
+		{
+			"src": "images/les1.jpg",
+			"href": "single.html",
+			"alt": "Image 1",
+			"tema": "tema 1",
+			"title": "СТАТЬЯ I",
+			"data": "11.09.2021",
+			"text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore exercitationem eum necessitatibus sit assumenda quos similique, explicabo consectetur cum neque laudantium quisquam, voluptates mollitia quidem, consequatur deserunt? Facilis, et error!"
+		},
+		{
+			"src": "images/les2.jpg",
+			"href": "single.html",
+			"alt": "Image 2",
+			"tema": "tema 2",
+			"title": "СТАТЬЯ II",
+			"data": "11.09.2021",
+			"text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore exercitationem eum necessitatibus sit assumenda quos similique, explicabo consectetur cum neque laudantium quisquam, voluptates mollitia quidem, consequatur deserunt? Facilis, et error!"
+		},
+		{
+			"src": "images/les3.jpg",
+			"href": "single.html",
+			"alt": "Image 3",
+			"tema": "tema 3",
+			"title": "СТАТЬЯ III",
+			"data": "11.09.2021",
+			"text": "xxx"
+		},
+		{
+			"src": "images/les4.jpg",
+			"href": "single.html",
+			"alt": "Image 4",
+
+			"title": "СТАТЬЯ IV",
+			"data": "11.09.2021",
+			"text": "ccccRTSRTSRTSTST"
+		},
+		{
+			"src": "images/les5.jpg",
+			"href": "single.html",
+			"alt": "Image 5",
+
+			"title": "СТАТЬЯ V",
+			"data": "11.09.2021",
+			"text": "aaaJLJLJLJLLVHNGN"
+		},
+		{
+			"src": "images/les6.jpg",
+			"href": "single.html",
+			"alt": "Image 6",
+			"tema": "tema 6",
+			"title": "СТАТЬЯ VI",
+			"data": "11.09.2021",
+			"text": "xxxDSFSFSFFSFSF"
+		}
+	]
+}
