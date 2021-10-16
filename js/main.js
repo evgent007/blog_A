@@ -2,35 +2,35 @@ window.addEventListener("DOMContentLoaded", () => {
 
 	'use strict';
 
-	class Article {
-		constructor(src, href, alt, tema = "БЕЗ ТЕМЫ", title, data, text = " ") {
-			this.src = src;
-			this.href = href;
-			this.alt = alt;
-			this.tema = tema;
-			this.title = title;
-			this.data = data;
-			this.text = text;
-			this.parent = document.querySelector(".row.fh5co-post-entry");
-			this.classes = ["col-lg-4", "col-md-3", "col-sm-3", "col-xs-6", "col-xxs-12", "animate-box"];
-		}
+	// class Article {
+	// 	constructor(src, href, alt, tema = "БЕЗ ТЕМЫ", title, data, text = " ") {
+	// 		this.src = src;
+	// 		this.href = href;
+	// 		this.alt = alt;
+	// 		this.tema = tema;
+	// 		this.title = title;
+	// 		this.data = data;
+	// 		this.text = text;
+	// 		this.parent = document.querySelector(".row.fh5co-post-entry");
+	// 		this.classes = ["col-lg-4", "col-md-3", "col-sm-3", "col-xs-6", "col-xxs-12", "animate-box"];
+	// 	}
 
-		render() {
-			let elem = document.createElement('article');
-			this.classes.forEach(c => elem.classList.add(c));
-			elem.innerHTML = `
-			<figure>
-				<a href=${this.href}><img src=${this.src} alt=${this.alt} class="img-responsive"></a>
-			</figure>
-			<span class="fh4co-meta"><a href=${this.href}>${this.tema}</a></span>
-			<h2 class="fh5co-article-title"><a href=${this.href}>${this.title}</a></h2>
-			<span class="fh5co-meta fh5co-date">${this.data}</span>
-			<div class="clearfix visible-xs-block"></div>
-			`;
+	// 	render() {
+	// 		let elem = document.createElement('article');
+	// 		this.classes.forEach(c => elem.classList.add(c));
+	// 		elem.innerHTML = `
+	// 		<figure>
+	// 			<a href=${this.href}><img src=${this.src} alt=${this.alt} class="img-responsive"></a>
+	// 		</figure>
+	// 		<span class="fh4co-meta"><a href=${this.href}>${this.tema}</a></span>
+	// 		<h2 class="fh5co-article-title"><a href=${this.href}>${this.title}</a></h2>
+	// 		<span class="fh5co-meta fh5co-date">${this.data}</span>
+	// 		<div class="clearfix visible-xs-block"></div>
+	// 		`;
 
-			this.parent.append(elem);
-		}
-	};
+	// 		this.parent.append(elem);
+	// 	}
+	// };
 
 
 	// // npx json-server db.json
@@ -51,35 +51,7 @@ window.addEventListener("DOMContentLoaded", () => {
 	// 		});
 	// 	});
 
-
-	new Article(
-		"images/les1.jpg",
-		"single.html",
-		"Image",
-		"tema",
-		"СТАТЬЯ I",
-		"11.09.2021",
-	).render();
-
-	new Article(
-		"images/les2.jpg",
-		"single.html",
-		"Image",
-		"тема",
-		"СТАТЬЯ II",
-		"11.09.2021",
-	).render();
-
-	new Article(
-		"images/les3.jpg",
-		"single.html",
-		"Image",
-		"тема",
-		"СТАТЬЯ III",
-		"11.09.2021",
-	).render();
-
-	// ----------------------------------------------------------------------------------
+	//----------------------------------------------------------------------------------
 
 	// iPad and iPod detection
 	var isiPad = function () {
