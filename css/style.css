@@ -775,5 +775,10 @@ figure figcaption {
     float: none;
   }
 }
+.cont-flex {
+  display: flex;
+  flex-wrap: wrap;
+
+}
 
 /*# sourceMappingURL=style.css.map */
